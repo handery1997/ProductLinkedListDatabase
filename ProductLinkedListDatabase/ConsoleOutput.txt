@@ -1,0 +1,99 @@
+Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 
+P01  | Apple    | 12  | 5.2
+P02  | Sugar    | 3  | 4.6
+P03  | Miliket    | 8  | 9.3
+P08  | abc    | 12  | 5.0
+P05  | xyz    | 14  | 5.1
+Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 
+Input search ID: Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 
+P01  | Apple    | 12  | 5.2
+P02  | Sugar    | 3  | 4.6
+P03  | Miliket    | 8  | 9.3
+P08  | abc    | 12  | 5.0
+Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 
+Product code: Product name: Product quantity: Product price: New product has been added!
+Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 
+P01  | Apple    | 12  | 5.2
+P02  | Sugar    | 3  | 4.6
+P03  | Miliket    | 8  | 9.3
+P08  | abc    | 12  | 5.0
+P05  | xyz    | 10  | 5.2
+Choose one of this options:
+Product list:
+1. Load data from file and display
+2. Input & add to the end.
+3. Display data
+4. Save product list to file.
+5. Search by ID
+6. Delete by ID
+7. Sort by ID.
+8. Convert to Binary
+9. Load to stack and display
+10. Load to queue and display.
+0. Exit
+Your choose: 

@@ -1,0 +1,170 @@
+Selection sort
+int j,x;
+for (int i =0;i<arr.length;i++){
+	x=a[i];
+	j=i;
+	while(j>0 && x<a[j-1]){
+		a[j]=a[j-1];
+		j--;
+	}
+	a[j]=x;
+}
+Insertion sort
+int k,min;
+for(int i=0;i<arr.length;i++){
+	min=a[i];
+	k=i;
+	for(int j = i+1;j<arr.length;j++){
+		if(a[j]<min){
+			min=a[j];
+			k=j;
+		}
+
+}
+		if(k=!i){
+		int swap = a[i];
+		a[i]=a[k];
+		a[k] = swap;
+
+}
+}
+int binarySearch(int arr[], int l; int r; int x){
+sort(arr);
+int mid = l + (r-l)/2;
+if(arr[mid]==x){
+return mid;
+}
+else if(arr[mid]>x){
+return binarySearch(arr;l;mid-1;x)}
+}
+return binarySearch(arr;mid+1;r;x)
+}
+
+
+Quicksort(array arr,int low,int high){
+if(arr==null||arr.length==0) return;
+if(low>=high) return;
+int mid = low + (high-low)/2;
+int pivot=arr[mid];
+int i = low; int j = high;
+while(i<=j){
+while(a[i]<pivot){
+i++;
+}
+while(a[j]>pivot){
+j--;
+}
+if(i<=j){
+int swap = a[i];
+a[i]=a[j];
+a[j]=swap;
+i++;
+j--;
+}
+}
+if (low<j){
+quicksort(arr,low,j)
+}
+if(high>i){
+quicksort(arr,i,high);
+}
+}
+Binary search
+binarysearch(int arr[];int low;int high; int x){
+	if(low<=high){
+	int mid = low + (high-low)/2;
+	if(arr[mid]==x){
+	print(mid)
+}
+	else if(arr[mid]>x){
+	binarysearch(arr;low;mid-1;x)
+	else if(arr[mid]<x)
+	binarysearch(arr;mid+1;high;x)
+	
+}
+else{
+print(element not found)
+}
+}
+
+	}
+
+}
+public static int multiply(int a, int b){
+       if(a==0||b==0){
+           return 0;
+       }
+       if(a<0){
+           a=-a;
+       }
+       if (b < 0) {
+            b=-b;
+       }
+       return multiply(a,b-1)+a;
+    }
+Selection sort
+int min,k;
+for(int i = 0; i<arr.length;i++){
+min=a[i];
+k=i;
+for(int j = i +1; j<arr.length;j++){
+if(a[j]<min){
+min=a[j];
+k=j;
+}
+}
+if(k=!j)
+swap
+}
+Insertion sort
+int x,j;
+for(int i=0;i<arr.length;i++){
+x= a[i];
+j=i;
+while(j>0 && x>a[j-1]){
+a[j]=a[j-1]
+j--
+}
+a[j]=x;
+}
+Selection sort
+int k, min;
+for(int i = 0; i<arr.length;i++){
+	min =a[i];
+	k=i;
+	for (int j =i+1;j<arr.length;j++){
+	if(a[j]<min){
+	min = a[j];
+	k=j;
+}
+	if(k!=i){
+	a[k]=a[i];
+	a[i]=min;
+	
+}
+}
+}
+Insertion sort
+int x,j;
+for(int i =0;i<arr.length;i++){
+	x=a[i];
+	j=i;
+	while(j>0 && x<a[j-1]){
+	a[j]=a[j-1];
+	j--;
+}
+a[j]=x;
+}
+int binarySearch(int arr[];int l;int r; int x){
+sort(arr);
+int mid = l+(r-l)/2;
+if (arr[mid]==x){
+return mid;
+}
+else if (arr[mid]>x){
+return binarySearch(arr;l;mid-1;x)
+}else{
+return binarySearch(arr;mid+1;r;x)
+}
+return -1;
+}
